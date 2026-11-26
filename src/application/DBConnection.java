@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/** Opens JDBC connections to the employment_db MySQL database. */
+/** Database */
 public class DBConnection {
 
 	private static final String URL =

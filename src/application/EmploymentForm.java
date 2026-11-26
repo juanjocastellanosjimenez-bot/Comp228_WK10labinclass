@@ -113,7 +113,7 @@ public class EmploymentForm extends Application {
 		otherButton.setToggleGroup(genderGroup);
 		grid.add(new HBox(15, maleButton, femaleButton, otherButton), 1, 7);
 
-		// ---------------- Employment Eligibility ----------------
+		//  Employment Eligibility 
 		Text eligibilityTitle = new Text("Employment Eligibility");
 		eligibilityTitle.setFont(Font.font("Tahoma", FontWeight.BOLD, 14));
 		grid.add(eligibilityTitle, 0, 8, 2, 1);
